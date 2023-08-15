@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     branches-ignore: ['l10n_main*']
+# on:
+#   push:
+#     branches: [main]
   release:
     types: [created]
 
